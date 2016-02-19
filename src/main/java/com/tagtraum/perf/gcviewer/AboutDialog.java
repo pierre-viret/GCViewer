@@ -44,6 +44,7 @@ public class AboutDialog extends ScreenCenteredDialog implements ActionListener 
         "Bernd Eckenfels",
         "Ryan Gardner",
         "Neil Gentleman",
+        "Chris Grindstaff",
         "Michi Gysel",
         "Johan Kaving",
         "Maciej Kwiecien",
@@ -61,6 +62,8 @@ public class AboutDialog extends ScreenCenteredDialog implements ActionListener 
         "Serafín Sedano",
         "Jugal Shah",
         "Andrey Skripalschikov",
+        "Kamil Szymanski",
+        "Pierre Viret",
         "Yin Xunjun",
         "Eugene Zimichev"};
 
@@ -76,7 +79,7 @@ public class AboutDialog extends ScreenCenteredDialog implements ActionListener 
         versionPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         versionPanel.setLayout(new GridBagLayout());
 
-        JLabel copyright = new JLabel("\u00A9" + " 2011-2015: Joerg Wuethrich and contributors", JLabel.CENTER);
+        JLabel copyright = new JLabel("\u00A9" + " 2011-2016: Joerg Wuethrich and contributors", JLabel.CENTER);
 
         JLabel contributorsLabel = new JLabel("contributors (alphabetically ordered):", JLabel.CENTER);
         contributorsLabel.setForeground(Color.GRAY);
@@ -148,7 +151,7 @@ public class AboutDialog extends ScreenCenteredDialog implements ActionListener 
      * Returns the preferred size to set a component at in order to render
      * an html string.  You can specify the size of one dimension.
      *
-     * @see http://blog.nobel-joergensen.com/2009/01/18/changing-preferred-size-of-a-html-jlabel/
+     * @see <a href="http://blog.nobel-joergensen.com/2009/01/18/changing-preferred-size-of-a-html-jlabel/">reference for this implementation</a>
      */
     private Dimension calculatePreferredSize(JLabel labelWithHtmlText, boolean width, int preferredSize) {
 

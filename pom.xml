@@ -54,6 +54,10 @@
             <name>Neil Gentleman</name>
         </developer>
         <developer>
+            <name>Chris Grindstaff</name>
+            <url>https://github.com/cgrinds</url>
+        </developer>
+        <developer>
             <name>Michi Gysel</name>
         </developer>
         <developer>
@@ -111,6 +115,14 @@
         </developer>
         <developer>
             <name>Andrey Skripalschikov</name>
+        </developer>
+        <developer>
+            <name>Kamil Szymanski</name>
+            <url>https://github.com/kamilszymanski</url>
+        </developer>
+        <developer>
+            <name>Pierre Viret</name>
+            <url>https://github.com/pierre-viret</url>
         </developer>
         <developer>
             <name>Yin Xunjun</name>
